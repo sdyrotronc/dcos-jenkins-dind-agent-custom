@@ -1,4 +1,4 @@
-FROM mesosphere/jenkins-dind:0.5.0-alpine
+FROM standyro/jenkins-dind:alpine-latest
 
 COPY patch.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/patch.sh
